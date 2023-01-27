@@ -30,7 +30,8 @@ case $choice in
         ;;
     4)
         echo "You have selected OpenSUSE."
-        echo "Please follow the instructions on the OpenSUSE website for installation on WSL."
+          curl -o install_kali.ps1 https://raw.githubusercontent.com/decentparadox/Kalser/main/install_suse.ps1
+        powershell.exe -ExecutionPolicy Bypass -File install_suse.ps1
         ;;
     5)
         echo "You have selected Others."
