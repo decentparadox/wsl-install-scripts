@@ -1,7 +1,7 @@
 # Install the Windows Subsystem for Linux feature
 Write-Host "Installing Windows subsystem for Linux"
 Write-Host "Running Kalsar"
-Write-Host "By: Sasank,Arhant,Rishi"
+Write-Host "By: Sasank,Arhant,Kushal"
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 
